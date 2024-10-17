@@ -16,6 +16,7 @@ time, mark, audio, video {
 	border: 0;
     font-family: sans-serif;
 	vertical-align: baseline;
+	text-decoration: none;
 }
 
 /* HTML5 display-role reset for older browsers */

@@ -1,3 +1,7 @@
+a{
+    color: inherit;
+}
+
 .header-bg{
     background: #000000;
 }
@@ -49,6 +53,36 @@
     color: white;
 }
 
+.introducao{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:0 2.5rem;
+}
+
+.imagem-intro{
+    display: block;
+    width: 100%;
+}
+
+.introducao-conteudo{
+    align-self: end;
+    padding: 0 0 5rem 0;
+}
+
+.introducao h1{
+    margin: 0 0 2rem 0;
+    font-size: 4rem;
+    line-height: 1.12;
+}
+
+.introducao p{
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin: 0 0 2rem 0;
+    color: #b2b2b2;
+}
+
+
 @media (max-width: 800px){
     .header-menu{
         gap: 1rem;
@@ -57,7 +91,6 @@
     .header-menu a{
         font-size: 0.875rem;
         background: #2E2E2E;
-        /* padding: 12px 16px; */
         padding: 8px 12px;
         border-radius: 5px;
     }
