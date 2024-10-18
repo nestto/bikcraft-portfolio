@@ -52,4 +52,18 @@ a{
 
 @media (max-width: 800px){
     
+    .header-menu{
+        gap: 1rem;
+    }
+
+    .header-menu a{
+        font-size: 1.2rem;
+        background: #2E2E2E;
+        padding: 8px 12px;
+        border-radius: 5px;
+    }
+
+    .header-menu a:after{
+        display: none;
+    }
 }
