@@ -1,7 +1,3 @@
-a{
-    color: inherit;
-}
-
 .header-bg{
     background: #000000;
 }
@@ -66,4 +62,5 @@ a{
     .header-menu a:after{
         display: none;
     }
+    
 }
