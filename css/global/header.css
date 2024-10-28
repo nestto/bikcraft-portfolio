@@ -8,9 +8,9 @@
     gap: 1.25rem;
     justify-content: space-between;
     align-items: center;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     padding: 20px;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
