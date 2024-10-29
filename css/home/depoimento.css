@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     background: var(--a1);
+    overflow: hidden;
 }
 
 .depoimento-imagem {
@@ -21,4 +22,50 @@
     font-style: italic;
     font-weight: 900;
     font-size: 3.5rem;
+    margin-bottom: 2rem;
+    max-width: 31ch;
+    position: relative;
+}
+
+.depoimento p::before{
+    content: "“";
+    font-size: 5rem;
+    color: var(--a2);
+    position: absolute;
+    left: -50px;
+    top: -20px;
+}
+
+.depoimento p::after{
+    content: "”";
+    font-size: 5rem;
+    color: var(--a2);
+    position: absolute;
+    right: -20px;
+    bottom: -50px;
+}
+
+@media  (max-width: 800px) {
+    .depoimento{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .depoimento-conteudo {
+        padding: 40px 20px;
+        justify-self: center;
+    }
+    .depoimento p::before{
+        left: 0;
+        top: -20px;
+    }
+
+    .depoimento p::after{
+        right: 180px;
+        bottom: -20px;
+    }
+
+    .depoimento-imagem{
+        max-height: 400px;
+    }
 }
