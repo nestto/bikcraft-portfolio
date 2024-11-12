@@ -31,6 +31,7 @@
 .bicicletas-conteudo{
     display: grid;
     grid-template-columns: 1fr auto;
+    align-content: start;
 }
 
 .bicicletas-conteudo h2,
@@ -71,8 +72,8 @@
 }
 
 .bicicletas-conteudo img{
-    width: 24px;
-    margin-right: 8px;
+    width: 1.5rem;
+    margin-right: 0.5rem;
 }
 
 @media (max-width: 800px){
@@ -82,9 +83,9 @@
 
     .bicicletas{
         grid-template-columns: 1fr;
-        gap: 20px;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        gap: 1.25rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
     }
 
     .bicicletas-conteudo{
