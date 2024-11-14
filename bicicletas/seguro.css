@@ -1,0 +1,20 @@
+.seguro-bicicletas-bg{
+    background: linear-gradient(var(--w) 10%, var(--c11) 0%, var(--c11) 90%, var(--c12) 0%);
+}
+
+.seguro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.seguro-imagem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.seguro-conteudo{
+    padding-top: 20%;
+    padding-bottom: 0px;
+}
