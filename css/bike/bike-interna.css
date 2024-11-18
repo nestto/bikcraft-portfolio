@@ -111,6 +111,10 @@
     }
 
     .bicicleta-imagens {
-        grid-row: 2;
+        grid-row: 1;
+    }
+
+    .titulo-bg p{
+        display: grid;
     }
 }

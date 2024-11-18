@@ -18,3 +18,28 @@
     padding-top: 20%;
     padding-bottom: 0px;
 }
+
+.seguro-conteudo h2{
+    margin-bottom: 2rem;
+}
+
+.seguro p{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+    .seguro {
+        grid-template-columns: 1fr;
+    }
+
+    .seguro-conteudo{
+        grid-row: 1;
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    .seguro-bicicletas-bg{
+        background: linear-gradient(var(--c11) 90%, var(--c12) 0%);
+    }
+
+}
