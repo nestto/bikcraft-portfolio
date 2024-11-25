@@ -60,6 +60,10 @@
     padding-bottom: 60px;
 }
 
+.titulo{
+    background: url(/assets/dec/bottom-right.svg) no-repeat top right 20px;
+}
+
 .titulo p{
     margin-bottom: 4px;
 }
