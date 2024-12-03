@@ -1,6 +1,7 @@
 @import url(/css/global/reset.css);
 @import url(/css/utilities/tipografia.css);
 @import url(/css/utilities/cores.css);
+@import url(/css/utilities/simple-anime.css);
 @import url(/css/global/header.css);
 @import url(/css/global/footer.css);
 @import url(/css/bike/bike-lista.css);
