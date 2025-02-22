@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/7140cc55-0f13-4c34-ac9a-3ae2912ea88e
 
 ## 💻 Técnicas e Tecnologias Utilizadas
 <div>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" height="25"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg" height="25"/> 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" height="25"/>
+  <img align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" height="25" />
+  <img align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg" height="25" style="padding-right:10px;"/> 
+  <img align="left" style="padding-right:10px;"src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" height="25"/>
 </div>
