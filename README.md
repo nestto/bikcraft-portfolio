@@ -1,6 +1,6 @@
 # Bikcraft
 
-Bikcraft é um portfólio interativo de bicicletas elétricas personalizadas, desenvolvido com HTML, CSS e JavaScript. Construido juntamente pelo curso da **Origamid**, o projeto apresenta uma interface moderna e responsiva.
+Bikcraft é um portfólio interativo de bicicletas elétricas personalizadas, desenvolvido com HTML, CSS e JavaScript. Construído juntamente pelo curso da **Origamid**, o projeto apresenta uma interface moderna e responsiva.
 
 https://github.com/user-attachments/assets/7140cc55-0f13-4c34-ac9a-3ae2912ea88e
 
